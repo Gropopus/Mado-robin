@@ -1,0 +1,14 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+----------------------------------------------------------------------------------
+
+- Ecrire une fonction qui affiche le chiffre passé en paramètre.
+
+Elle sera prototypée de la manière suivante:
+
+void ft_putdigit(int digit);
+
+- Ecrire une fonction qui affiche le nombre passé en paramètre.
+
+Elle sera prototypée de la manière suivante:
+
+void ft_putnbr(int digit);

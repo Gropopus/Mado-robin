@@ -1,0 +1,24 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+----------------------------------------------------------------------------------
+
+Créer une fonction de limite d'âge.
+La fonction sera prototypée de la manière suivante :
+
+void ft_limite(int age);
+
+La fonction écrira: 
+    - "oui" suivi d'un retour à la ligne si l'âge est supérieur ou égal à 18.
+    - "non" suivi d'un retour à la ligne si l'âge est inférieur à 18.
+
+Exemple de main pour tester la fonction :
+
+int main(void)
+{
+    int nombre = 42;
+
+    ft_limite(nombre);
+
+    ft_limite(5);
+    
+    return (0);
+}

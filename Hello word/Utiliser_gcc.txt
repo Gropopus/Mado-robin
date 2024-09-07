@@ -1,0 +1,12 @@
+Pour transformer notre fichier c en programme, on utilise le compilateur gcc.
+
+-> gcc mon_fichier.c
+
+Le compilateur offre de nombreuses options que je vous suggère d'utiliser.
+
+-> gcc -Wall -Wextra -Werror mon_fichier.c
+
+Elles vous permettront de mieux comprendre pourquoi le fichier ne compile pas en cas de problème. 
+
+Le nom du programme compilé s'appelera a.out, mais vous pouvez le renommer avec la commande mv
+si vous le souhaitez.

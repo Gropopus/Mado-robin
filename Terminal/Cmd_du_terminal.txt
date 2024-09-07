@@ -1,0 +1,62 @@
+- Afficher le manuel d'une commande
+    utiliser la commande man suivie du nom de la commande :
+        -> man ls (pour quitter le manuel appuyer sur la touche q)
+
+- lister le contenu d'un dossier sur le terminal
+    utiliser la commande ls :
+        -> ls
+# l'option -la affichera plus d'informations ainsi que les dossiers cachés.
+
+
+- Connaitre le chemin sur lequel je me trouve
+    utliser la commande pwd :
+        ->  pwd
+
+- Se déplacer dans le terminal
+    utiliser la commande cd :
+        
+        exemple:
+
+        ->  cd ./mon_dossier (entrer dans le dossier 'mon dossier')
+
+        ->  cd .. (revenir en arrière)
+
+        ->  cd ../mon dossier (revenir en arrière et entrer dans le dossier 'mon dossier')
+
+# appuyer sur la touche tab vous affichera les chemins possibles 
+
+- Créer un dossier
+    utiliser la commande mkdir : 
+        ->  mkdir le_nom_de_mon_dossier
+
+- Créer un ficher
+    utiliser la commande touch :
+        -> touch mon_nom_de_fichier.extension 
+
+- Supprimer un fichier/un dossier
+    utiliser rm :
+        -> rm mon_fichier.txt
+        -> rm -rf mon_dossier (attention le contenu du dossier sera aussi supprimé)
+
+- Copier un fichier/ un dossier
+    utiliser la commande cp :
+        -> cp mon_fichier.txt mon_nouveau_fichier.txt
+
+- Renommer ou déplacer un fichier / un dossier
+    utiliser la commande mv :
+        -> mv mon_fichier.c main.c (le fichier mon_fichier.c sera renommé main.c)
+
+- Afficher le contenu d'un fichier
+    utiliser la commande cat :
+        -> cat mon_fichier.txt
+# l'option -e permet d'afficher si il y a un retour à la ligne.
+Les retours à la ligne sont affichés par le caractère '$'
+
+- Changer les droits d'un fichier 
+    utiliser la commande chmod :
+        -> chmod 777 monfichier.txt
+# pour mieux comprendre -> man chmod
+
+- passer en mode super-utilisateur (quasiment tous les droits)
+        utiliser la commande sudo :
+        -> sudo rm monfichier.txt

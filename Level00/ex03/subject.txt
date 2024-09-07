@@ -1,0 +1,35 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+Programme attendu : fizzbuzz 
+----------------------------------------------------------------------------------
+
+Ecrire un programme nommé Fizzbuzz qui affiche tous les nombres de 1 à 100.
+
+- Si le nombre est un multiple de 3, il affiche fizz à la place du nombre.
+
+- Si le nombre est un multiple de 5, il affiche buzz à la place du nombre.
+
+- Si le nombre est un multiple de 3 et de 5, il affiche fizzbuzz à la place du nombre.
+
+$>./fizzbuzz
+1
+2
+fizz
+4
+buzz
+fizz
+7
+8
+fizz
+buzz
+11
+fizz
+13
+14
+fizzbuzz
+[...]
+97
+98
+fizz
+buzz
+
+
