@@ -1,0 +1,12 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+----------------------------------------------------------------------------------
+
+Créer un dossier nommé libft dans le dossier Mado-robin
+
+Dans ce dossier, créer le fichier ft_putchar.c
+
+Il contiendra la fonction suivante :
+
+void ft_putchar(char c)
+
+La fonction affichera le caractère passé en parametre sur la sortie standard.

@@ -1,0 +1,9 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+                       printf() de la librairie <stdio.h>
+----------------------------------------------------------------------------------
+
+Créer une fonction qui additione les 2 integers passés en paramètre et retourne le résultat.
+
+Elle sera prototypée de la manière suivante :
+
+int ft_addition(int a, int b);

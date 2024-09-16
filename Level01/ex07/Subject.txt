@@ -1,0 +1,9 @@
+Dans votre dossier libft, créé la fonction suivante :
+
+int ft_strchr(char *str, char c)
+
+Le fichier devra etre nommé ft_strchr.c
+
+La fonction retournera 1 si le caractère c se trouve dans la chaine str, sinon la fonction 
+
+retournera 0.

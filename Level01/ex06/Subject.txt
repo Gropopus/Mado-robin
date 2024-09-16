@@ -1,0 +1,17 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+ft_putstr() et ft_putchar() ou tout autre fonction que vous avez créé.
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante :
+
+ft_camoulox(char *str);
+
+Comportement :
+- Si la chaine de caractère passée en paramètre contient la lettre 'a', la fonction écrira
+"biquette" suivie d'un retour à la ligne sur la sortie standard.
+
+- Si la chaine de caractère passée en paramètre contient la lettre 'b', la fonction écrira
+"ping pong" suivie d'un retour à la ligne sur la sortie standard.
+
+- Si la chaine de caractère possède la lettre 'c' ou la lettre 'd', la fonction écrira
+"guitare" suivie d'un retour à la ligne sur la sortie standard.

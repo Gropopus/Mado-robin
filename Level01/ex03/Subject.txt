@@ -1,0 +1,9 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+----------------------------------------------------------------------------------
+
+Créer une fonction qui affiche la chaine de caractères passée en paramètre
+Elle sera prototypée de la manière suivante :
+
+void ft_putstr(char *str);
+
+le fichier devra etre nommé ft_putstr.c et devra etre créé dans votre dossier libft

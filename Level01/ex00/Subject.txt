@@ -1,0 +1,13 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+Programme attendu: Hello
+----------------------------------------------------------------------------------
+
+- Créer un programme qui affiche : "Bonjour" suivi d'un retour à la ligne.
+
+Le programme doit etre lancé de la manière suivante :
+ -> ./Hello | cat -e
+
+ résultat :
+ bonjour$
+
+ 
