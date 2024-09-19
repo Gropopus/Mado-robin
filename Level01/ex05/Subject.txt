@@ -5,6 +5,4 @@ Le fichier devra etre nommé ft_strlen.c
 
 int ft_strlen(char *str);
 
-Le fichier devra etre nommé ft_strlen.c
-
 La fonction devra retourner la longueur de la chaine de caractère passée en paramètre.
