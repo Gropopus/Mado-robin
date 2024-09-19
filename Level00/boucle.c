@@ -3,7 +3,7 @@
 /* 
 voila un exemple de contenu d'une chaine de caracteres.
 Le type d'une chaine de caracteres est char * ou bien char [].
-Ce n'est qu'en faite un succession de char, on les surnomme string.
+Ce n'est qu'en faite une succession de char, on les surnomme string.
 
 On peut voir que le premier caractere de la chaine suivante se trouve a l'index 0.
 index :  0 1  2  3  4  5  

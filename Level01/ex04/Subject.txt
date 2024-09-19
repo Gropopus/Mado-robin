@@ -7,3 +7,5 @@ Créer une fonction qui additione les 2 integers passés en paramètre et retour
 Elle sera prototypée de la manière suivante :
 
 int ft_addition(int a, int b);
+
+votre programme devra afficher le résultat de l'addition avec un printf
