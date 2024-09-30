@@ -1,0 +1,9 @@
+
+Créer la fonction ft_bubble_sort.
+
+Elle sera prototypee de la maniere suivante:
+
+void ft_bubble_sort(int *tab);
+
+La fonction triera les integers dans le tableau du plus petit au plus grand.
+

@@ -1,0 +1,20 @@
+Fonctions autorisées : write() de la librairie <unistd.h>
+----------------------------------------------------------------------------------
+
+Créer une fonction qui affiche le premier mot de la chaine de caractères passée en paramètre
+suivi d'un retour a la ligne.
+
+exemple:
+
+- ft_first_word("Bonjour a tous !");
+$> ./a.out | cat -e
+$> Bonjour$
+
+- ft_first_word("  lorem,ipsum  ");
+$> ./a.out | cat -e
+$> lorem,ipsum$
+
+- ft_first_word("  ");
+$> ./a.out | cat -e
+$> $
+
