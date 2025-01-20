@@ -1,0 +1,25 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft
+Fichier attendu: ft_tolower.c main.c
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante et ajouter la à votre libft.
+
+void ft_tolower(char *str);
+
+- La fonction transformera les caractères en majuscule de la chaine str en minuscule.
+- Le main pour tester votre fonction devra etre dans un fichier séparé main.c
+- Vous testerez votre fonction en utilisant votre librairie.
+
+exemple de main :
+
+#include "./libft/libft.h"
+
+int main(void)
+{
+    ft_tolower("TotO123@GmAiL.COM");
+    return (0);
+}
+
+- La sortie donnera: 
+
+toto123@gmail.com

@@ -1,0 +1,34 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft
+Fichier attendu: ft_atoi.c main.c
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante et ajouter la à votre libft.
+
+int *ft_atoi(char *str);
+
+- La fonction devra transformer les caractères numérique présent dans la chaine de caractère str en integer
+qui sera retourner par la fonction.
+  
+- Le main pour tester votre fonction devra etre dans un fichier séparé main.c
+- Vous testerez votre fonction en utilisant votre librairie.
+
+exemple de main :
+
+#include "./libft/libft.h"
+
+int main(void)
+{
+    int nb;
+    nb = ft_atoi("1234");
+    ft_putnbr(nb);
+    ft_putchar('\n');
+
+    nb = ft_atoi("aaaa123");
+    ft_putnbr(nb);
+    ft_putchar('\n');
+    
+    nb = ft_atoi("-666");
+    ft_putnbr(nb);
+    ft_putchar('\n');
+    return (0);
+}

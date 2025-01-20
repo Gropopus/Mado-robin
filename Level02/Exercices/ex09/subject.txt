@@ -1,0 +1,23 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft
+Fichier attendu: test.c main.c header.h
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante dans le fichier test.c
+
+void test(char *str);
+
+La fonction test affichera le contenu de la chaine de caractère str sur la sortie standard.
+
+Créer le header file header.h qui devra contenir le prototype de la fonction test.
+
+Créer le fichier main.c suivant:
+
+exemple de main :
+
+#include "header.h"
+
+int main(void)
+{
+    test("J'ai compris l'interet du fichier.h\n");
+    return (0);
+}

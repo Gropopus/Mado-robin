@@ -1,0 +1,32 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft
+Fichier attendu: main.c header.h
+----------------------------------------------------------------------------------
+
+Créer la structure t_id dans le fichier header.h 
+cette structure devra contenir les variable suivante:
+- int age;
+- char *nom; 
+- char *prenom;
+- char *nationalite;
+
+Créer la fonction suivante dans votre main.c :
+
+void ft_fill_id(int argc, char **argv, t_id id)
+
+La fonction devra remplir les variables nom, prenom et nationalite avec les arguments 1, 2, 3 du tableau argv.
+La variable age devra etre remplie avec le nombre de votre choix.
+
+La fonction devra egalement afficher le contenu de la structure.
+
+exemple de main :
+
+#include "./libft/libft.h"
+#include "header.h"
+
+int main(int argc, char **argv)
+{
+    t_id green_card;
+
+    ft_fill_id(green_card);
+    return (0);
+}
