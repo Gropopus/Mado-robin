@@ -1,0 +1,23 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante: 
+
+ft_print_params(int argc, char **argv);
+
+La fonction devra afficher tout les arguments suivi d'un retour à la ligne.
+Si il n'y a aucun argument, le programme devra afficher:
+Aucun argument (suivi d'un retour à la ligne).
+La fonction devra etre appeler dans votre main.
+
+exemple:
+./a.out "riri" "fifi" "loulou"
+riri
+fifi
+loulou
+
+./a.out
+Aucun argument
+
+./a.out "argument1"
+argument1

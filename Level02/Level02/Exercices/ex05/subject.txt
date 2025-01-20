@@ -1,0 +1,43 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft
+Fichier attendu: ft_strcmp.c main.c
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante et ajouter la à votre libft.
+
+int ft_strcmp(char *str1, char *str2);
+
+- La fonction comparera un à un les caractères de la chaine str1 et str2, à la première différence trouvée,
+la fonction retournera la différence entre le caractères de str1 et de str2.
+Si les chaines sont parfaitement identiques, la fonction retournera 0.  
+Si une ou plusieur chaine est NULL, la fonction retournera -1.
+
+- Le main pour tester votre fonction devra etre dans un fichier séparé main.c
+- Vous testerez votre fonction en utilisant votre librairie.
+
+exemple de main :
+
+#include "./libft/libft.h"
+
+int main(int argc, char **argv)
+{
+    if (argc != 3)
+    {
+        ft_putstr("3 arguments required\n")
+        return (-1);
+    }
+    int res = 0;
+    res = ft_strcmp(argv[1], argv[2]);
+    if (res == 0)
+    {
+        ft_putstr("Les chaines sont identiques\n");
+    }
+    else if (res < 0)
+    {
+        ft_putstr("Au moins une des chaines est NULL\n");
+    }
+    else
+    {
+        ft_putstr("Les chaines sont différentes\n");
+    }
+    return (0);
+}

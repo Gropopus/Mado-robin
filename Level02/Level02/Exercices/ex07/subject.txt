@@ -1,0 +1,24 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft
+Fichier attendu: ft_putnbr.c main.c
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante et ajouter la à votre libft.
+
+int ft_putnbr(int nb);
+
+- La fonction affichera sur la sortie standard le nombre présent dans la variable nb passée en paramètre.
+- Le main pour tester votre fonction devra etre dans un fichier séparé main.c
+- Vous testerez votre fonction en utilisant votre librairie.
+
+exemple de main :
+
+#include "./libft/libft.h"
+
+int main(void)
+{
+    ft_putnbr(42);
+    ft_putchar('\n');
+    ft_putnbr(-1234);
+    ft_putchar('\n');
+    return (0);
+}

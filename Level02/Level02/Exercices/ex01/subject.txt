@@ -1,0 +1,29 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, librairie Libft 
+Fichier attendu: ft_toupper.c main.c
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante et ajouter la à votre libft.
+
+void ft_toupper(char *str);
+
+- La fonction transformera les caractères en minuscule de la chaine str en majuscule.
+- Le main pour tester votre fonction devra etre dans un fichier séparé main.c
+- Vous testerez votre fonction en utilisant votre librairie.
+
+pour compiler votre main avec votre libft:
+
+gcc main.c ./libft/libft.a 
+
+exemple de main :
+
+#include "./libft/libft.h"
+
+int main(void)
+{
+    ft_toupper("Toto123@gmail.com");
+    return (0);
+}
+
+- La sortie donnera: 
+
+TOTO123@GMAIL.COM

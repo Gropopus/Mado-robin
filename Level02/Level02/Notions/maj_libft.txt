@@ -1,0 +1,29 @@
+Pour mettre à jour la libft et y ajouter des fonctions, voici les étapes à suivre:
+
+1 - ajouter le fichier c contenant la fonction à ajouter dans votre dossier libft
+
+2 - Vérifier qu'il n'y a pas de fonction main() dans votre fichier, si oui, la supprimer. 
+    Ajouter le header #include "libft.h" et supprimer les autres includes.
+
+3 - Dans votre Header file libft.h, ajouter le prototype de la fonction 
+    rappel: le prototype de votre fonction est constitué du type de la fonction, de son nom et de ses
+    paramètres suivie de ;
+    exemple:
+    char ft_strcpy(char *dest, char *src);
+
+4 - Ne pas oublié de sauvegarder votre fichier.c et votre libft.h
+
+5 - Créer les fichiers .o :
+La compilation avec gcc se passe en 2 étapes, le compilateur transforme d'abord les fichiers .c en fichers .o 
+(les fichier .o soit .objet sont des fichiers en langage machine, illisible pour nous)
+Puis le compilateur assemble tout les fichier .o pour les transformer en programme a.out.
+Pour la librairie, nous ne voulons pas créer de programme, nous voulons seulement effectuer la première étape
+On utilise donc le flag -c lors de la commande gcc pour préciser aux compilateur de ne faire que l'étape 1:
+
+gcc -c fichier1.c fichier2.c fichier3.c libft.h 
+
+Le fichiers .o devraient etre créés et visible.
+
+6 - Créer votre librairie en utilisant la commande suivante:
+
+ar -rc libft.a fichier1.o fichier2.o fichier3.o 

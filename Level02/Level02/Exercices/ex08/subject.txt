@@ -1,0 +1,32 @@
+Fonctions autorisées : write() de la librairie <unistd.h>, malloc() de la librairie <stdlib.h>, librairie Libft
+Fichier attendu: ft_strdup.c main.c
+----------------------------------------------------------------------------------
+
+Créer la fonction suivante et ajouter la à votre libft.
+
+char *ft_strdup(char *str);
+
+- La fonction doit effectuer une copie de la chaine str dans une nouvelle chaine de caractère en allouant
+l'espace mémoire nécessaire et retourner celle-ci.
+- Le main pour tester votre fonction devra etre dans un fichier séparé main.c
+- Vous testerez votre fonction en utilisant votre librairie.
+
+exemple de main :
+
+#include "./libft/libft.h"
+
+int main(int argc, char **argv)
+{
+    if (argc != 2)
+    {
+        ft_putstr("1 argument required\n");
+        return (-1);
+    }
+    char *test;
+
+    test = ft_strdup(argv[1]);
+    ft_putstr(test);
+    ft_putchar('\n');
+    free(test);
+    return (0);
+}
