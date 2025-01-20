@@ -26,6 +26,6 @@ int main(int argc, char **argv)
     {
         return (-1);// le programme quitte en retournant -1
     }
-    printf("%d", argv[1]);// On affiche l'argument passé en paramètre.
+    printf("%s", argv[1]);// On affiche l'argument passé en paramètre.
     return (0);
 }

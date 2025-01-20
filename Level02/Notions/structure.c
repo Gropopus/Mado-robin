@@ -4,8 +4,8 @@
 void print_struct(t_voiture a)
 {
     printf("Nombre de km: %d\n", a.nbr_km);
-    printf("Marque: %d\n", a.marque);
-    printf("Proprietaire: %d\n", a.proprietaire);
+    printf("Marque: %s\n", a.marque);
+    printf("Proprietaire: %s\n", a.proprietaire);
 }
 
 int main(int argc, char **argv)

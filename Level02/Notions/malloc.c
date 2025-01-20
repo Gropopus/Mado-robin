@@ -1,6 +1,6 @@
 #include <stdlib.h> // la fonction d'allocation mémoire malloc se trouve dans cette librairie.
 #include <stdio.h>
-
+#include <string.h>
 int ft_strlen(char *str)
 {
     int i = 0;
@@ -41,9 +41,9 @@ str sera égale à NULL (pas de mémoire alloué).
 */
     str[length] = '\0';
 /*On ferme la chaine de caractère avec le \0 à l'index length car le premier caractère se trouve à l'index 0 */
-    str = "test"; // On remplie notre chaine.
+    strcpy(str, "test");
     printf("%s\n", str); // on l'affiche.
     free(str); // On oublie pas de libérer la mémoire alloué lorsqu'on a terminé avec la fonction free
 /*TOUJOURS LIBERER LA MEMOIRE ALLOUE sinon il y aura des fuites mémoires aka LEAKS*/
-    return (0)
+    return (0);
 }
